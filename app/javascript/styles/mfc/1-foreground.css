@@ -294,3 +294,7 @@ a.table-action-link,
 .notification__filter-bar button.active::after {
   border-color: transparent transparent var(--bg);
 }
+
+.notification {
+  background: var(--bgPage);
+}

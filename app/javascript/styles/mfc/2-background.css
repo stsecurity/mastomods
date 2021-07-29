@@ -33,12 +33,12 @@ body.app-body,
     .status-direct .status__content,
     .notification-favourite .status.status-direct,
 /* column preferences */
-.column-settings__section,
+/*.column-settings__section,*/
     .column-header__collapsible,
     .column-header__collapsible-inner,
-    .column-header__button.active,
+/*    .column-header__button.active,*/
     .setting-meta__label,
-    .setting-toggle__label,
+/*    .setting-toggle__label,*/
 .column-subheading,
 .content-wrapper,
 .media-spoiler,
@@ -96,6 +96,12 @@ body.theme-default,
 .brand__tagline,
 .table-of-contents {
   background: var(--bgPage);
+  color: var(--textPage);
+}
+
+/*notification section*/
+.setting-toggle__label,
+.column-settings__section {
   color: var(--textPage);
 }
 
@@ -191,4 +197,16 @@ body .neutral-hint, .admin-wrapper .content .neutral-hint,
 }
 .tabs-bar__wrapper {
   background: rgba(0, 0, 0, 0);
+}
+
+/*filter button color when focused*/
+.column-header__button.active {
+  background: var(--bgPage);
+}
+
+/*font color at setting page*/
+label.optional,
+label.required,
+.user_setting_display_media ul label {
+  color: var(--textPage) !important;
 }
