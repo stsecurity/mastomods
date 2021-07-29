@@ -207,6 +207,8 @@ body .neutral-hint, .admin-wrapper .content .neutral-hint,
 /*font color at setting page*/
 label.optional,
 label.required,
+.label_input ul li label,
+.optional ul li label,
 .user_setting_display_media ul label {
   color: var(--textPage) !important;
 }
