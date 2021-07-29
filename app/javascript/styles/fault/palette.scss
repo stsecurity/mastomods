@@ -42,18 +42,19 @@
 /* fault */
 
 :root {
---bg: #fff;
---text: #123;
---textBold: #000;
---textMuted: #666;
+  --bg: #fff;
+  --text: #123;
+  --textBold: #000;
+  --textMuted: #666;
 
---bgPage: #ddd;
---textPage: var(--text);
---textPageBold: var(--textBold);
---textPageMuted: var(--textMuted);
+  --bgPage: #ddd;
+  --bgPageTransparent: rgba(221, 221, 221, 0.5);
+  --textPage: var(--text);
+  --textPageBold: var(--textBold);
+  --textPageMuted: var(--textMuted);
 
---bgHead: #333;
---textHead: #fff;
---accent: #09f;
---accentText: var(--textHead);
+  --bgHead: #333;
+  --textHead: #fff;
+  --accent: #09f;
+  --accentText: var(--textHead);
 }

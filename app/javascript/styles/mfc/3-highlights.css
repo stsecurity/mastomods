@@ -29,8 +29,8 @@ headers and warnings
     .column-link__badge,
     .column-link--transparent.active,
 /* settings pages */
-    .list-editor h4,
-    .admin-wrapper .content h4,
+/*    .list-editor h4,
+    .admin-wrapper .content h4,*/
         .admin-wrapper .sidebar ul ul a.selected,
     .flash-message,
         .flash-message.notice,

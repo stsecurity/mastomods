@@ -141,10 +141,20 @@ base background and text
 .hero-widget__text,
 .load-more,
 .button.button-secondary,
-.simple_form__overlay-area__overlay
-{
-background: var(--bg);
-color: var(--text)
+.simple_form__overlay-area__overlay {
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* border radius for some elements*/
+.search__input,
+.navigation-bar,
+.column-header__wrapper {
+  border-radius: 4px 4px 4px 4px;
+}
+
+.compose-form__buttons-wrapper {
+  border-radius: 0 0 4px 4px;
 }
 
 /*--------------------
@@ -178,9 +188,8 @@ override for bold text
 .rich-formatting h3,
     .rich-formatting h4,
 .public-layout .public-account-header__tabs__tabs .counter .counter-number,
-.account__header__fields dt
-{
-color: var(--textBold)
+.account__header__fields dt {
+  color: var(--textBold);
 }
 
 /*---------------------
@@ -241,16 +250,19 @@ a.table-action-link,
     .public-layout .public-account-bio__extra,
     .public-layout .public-account-header__tabs__tabs .counter,
 .load-more,
-.account__disclaimer
-{
-color: var(--textMuted)
+.account__disclaimer {
+  color: var(--textMuted);
 }
 
 /* fix announcement reactions */
-.reactions-bar__item__count {color: inherit}
+.reactions-bar__item__count {
+  color: inherit;
+}
 
 /* fix for conversations font weight */
-.conversation--unread .conversation__content__info {font-weight: 400}
+.conversation--unread .conversation__content__info {
+  font-weight: 400;
+}
 
 /* fix for border colors */
 .account--panel,
@@ -264,13 +276,21 @@ color: var(--textMuted)
 .account__header__bio .account__header__fields,
 .account,
 .directory__card__extra .account__header__content,
-.account__section-headline, .notification__filter-bar,
-.actions-modal .dropdown-menu__separator, .actions-modal .status
-{border-color: var(--textMuted)}
+.account__section-headline,
+.notification__filter-bar,
+.actions-modal .dropdown-menu__separator,
+.actions-modal .status {
+  border-color: var(--textMuted);
+}
 
 .account__header__account-note,
-.announcements-list
-{border-color: transparent}
+.announcements-list {
+  border-color: transparent;
+}
 
-.account__section-headline a.active::after, .account__section-headline button.active::after, .notification__filter-bar a.active::after, .notification__filter-bar button.active::after
-{border-color: transparent transparent var(--bg)}
+.account__section-headline a.active::after,
+.account__section-headline button.active::after,
+.notification__filter-bar a.active::after,
+.notification__filter-bar button.active::after {
+  border-color: transparent transparent var(--bg);
+}

@@ -8,13 +8,13 @@ base background and text
 
 /* background and drawer */
 body.app-body,
-.ui,
+/*.ui,*/
 .drawer__tab,
 .drawer__inner,
 .drawer__inner.darker,
 .drawer__inner__mastodon,
 .tabs-bar,
-.tabs-bar__wrapper,
+/*.tabs-bar__wrapper,*/
 .getting-started,
 .search-results__section h5,
 .account__section-headline,
@@ -25,7 +25,7 @@ body.app-body,
 .introduction,
 .account__header__image,
 .account__header__account-note textarea:focus,
-.flex-spacer, .getting-started, .getting-started__wrapper,
+.flex-spacer, .getting-started, .getting-started__wrapper, .getting-started__footer,
 /* DMs */
 .status.status-direct,
     .status.status-direct:not(.read),
@@ -94,10 +94,9 @@ body.theme-default,
 .public-layout .header .nav-button,
 .nothing-here,
 .brand__tagline,
-.table-of-contents
-{
-background: var(--bgPage);
-color: var(--textPage)
+.table-of-contents {
+  background: var(--bgPage);
+  color: var(--textPage);
 }
 
 /*--------------------
@@ -125,9 +124,8 @@ override for bold text
     .pagination .gap,
     .pagination .newer,
     .pagination .older,
-    .pagination a
-{
-color: var(--textPageBold)
+    .pagination a {
+  color: var(--textPageBold);
 }
 
 /*---------------------
@@ -171,12 +169,26 @@ body .neutral-hint, .admin-wrapper .content .neutral-hint,
     .public-layout .header .nav-button,
 /* log in, sign up, forgot passwd */
 .form-footer a,
-.lighter .simple_form p.hint.subtle-hint
-{
-color: var(--textPageMuted)
+.lighter .simple_form p.hint.subtle-hint {
+  color: var(--textPageMuted);
 }
 
 /* border color fix */
 .status.status-direct:not(.read),
-.table-of-contents li a
-{border-color: var(--textPageMuted)}
+.table-of-contents li a {
+  border-color: var(--textPageMuted);
+}
+
+/*nav bar background*/
+.navigation-bar {
+  background: var(--bgPage);
+}
+
+/*transparent background for columns*/
+.columns-area__panels__pane__inner,
+.columns-area__panels__main {
+  background: var(--bgPageTransparent);
+}
+.tabs-bar__wrapper {
+  background: rgba(0, 0, 0, 0);
+}
