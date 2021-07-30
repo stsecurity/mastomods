@@ -192,7 +192,9 @@ body .neutral-hint, .admin-wrapper .content .neutral-hint,
 
 /*transparent background for columns*/
 .columns-area__panels__pane__inner,
-.columns-area__panels__main {
+.columns-area__panels__main,
+.column,
+.drawer {
   background: var(--bgPageTransparent);
 }
 .tabs-bar__wrapper {
