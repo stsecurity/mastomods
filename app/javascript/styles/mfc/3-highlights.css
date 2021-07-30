@@ -3,17 +3,25 @@
 ------------------------------------------------------------------------------*/
 
 /* scrollbar fix */
-html {scrollbar-color: var(--bg) var(--bgPage)}
-::-webkit-scrollbar-thumb {background: var(--bg)}
-::-webkit-scrollbar-thumb:hover {background: var(--accent)}
-::-webkit-scrollbar-track:hover {background: rgba(0,0,0,0.2)}
+html {
+  scrollbar-color: var(--bg) var(--bgPage);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+::-webkit-scrollbar-track:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
 
 /*------------------
 headers and warnings
 ------------------*/
 
 /* columns view */
-    .column-header,
+.column-header,
         .column-header__button,
         .column-header__back-button,
         .column-header__button:hover,
@@ -40,10 +48,9 @@ headers and warnings
         .table-form .warning,
     .pagination .current,
     .account-role,
-    .batch-table__toolbar
-{
-    background: var(--bgHead);
-    color: var(--textHead)
+    .batch-table__toolbar {
+  background: var(--bgHead);
+  color: var(--textHead);
 }
 
 /*--------------
@@ -122,6 +129,7 @@ accented buttons
         .dashboard__counters > div > a:hover .dashboard__counters__label,
         .dashboard__counters > div > a:focus .dashboard__counters__label,
         .dashboard__counters > div > a:active .dashboard__counters__label,
+        .admin-wrapper .sidebar ul a.selected,
 /* video player ui */
     .video-player__seek__buffer,
     .video-player__seek__progress,
@@ -130,10 +138,9 @@ accented buttons
 /* announcements */
     .icon-with-badge__badge,
     .announcements__item__unread,
-    .reactions-bar__item:hover
-{
-    background: var(--accent);
-    color: var(--accentText);
+    .reactions-bar__item:hover {
+  background: var(--accent);
+  color: var(--accentText);
 }
 
 /*------------
@@ -141,7 +148,7 @@ accented links
 ------------*/
 
 /* status links */
-    .status__content a,
+.status__content a,
         .status__content a.unhandled-link,
     .getting-started a,
         .getting-started p a,
@@ -202,9 +209,8 @@ accented links
     .filters .filter-subset a.selected,
     .simple_form .hint a,
 /* mobile elements */
-    .tabs-bar__link.active
-{
-    color: var(--accent)
+    .tabs-bar__link.active {
+  color: var(--accent);
 }
 
 /* border fix */
@@ -214,16 +220,21 @@ accented links
 .filters .filter-subset a.selected,
 .introduction__dot,
 .public-layout .public-account-header__tabs__tabs .counter.active::after,
-.notification.unread::before, .status__wrapper.unread::before
-{border-color: var(--accent)}
+.notification.unread::before,
+.status__wrapper.unread::before {
+  border-color: var(--accent);
+}
 
 /* trends fix */
-.trends__item__sparkline path:first-child {fill: transparent !important}
-.trends__item__sparkline path:last-child {stroke: var(--accent) !important}
+.trends__item__sparkline path:first-child {
+  fill: transparent !important;
+}
+.trends__item__sparkline path:last-child {
+  stroke: var(--accent) !important;
+}
 
 /* focus fix */
-.focusable:focus
-{
+.focusable:focus {
   background: transparent;
   border: 2px solid var(--accent);
 }

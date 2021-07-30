@@ -60,11 +60,10 @@ body.app-body,
 .admin-wrapper .sidebar-wrapper,
     .admin-wrapper .sidebar-wrapper__inner,
     .admin-wrapper .sidebar ul a,
-    .admin-wrapper .sidebar ul a.selected,
+/*    .admin-wrapper .sidebar ul a.selected,*/
     .admin-wrapper .sidebar ul ul a,
     .admin-wrapper .content h2,
     .admin-wrapper .content h6,
-    .admin-wrapper .sidebar ul .selected,
 /* modals */
 .boost-modal__action-bar,
     .confirmation-modal__action-bar,
