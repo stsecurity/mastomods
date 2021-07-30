@@ -80,6 +80,8 @@ accented buttons
     .button.button-alternative:hover,
         .button.button-alternative-2:hover,
     .column-link:hover,
+    .column-link:active,
+    .column-link:focus,
         .getting-started a.column-link:hover,
     .column-header__button:hover,
         .column-header__button.active:hover,
