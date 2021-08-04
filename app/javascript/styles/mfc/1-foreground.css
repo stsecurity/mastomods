@@ -300,7 +300,9 @@ a.table-action-link,
 }
 
 /*settings page administration section text color*/
-.dashboard__widgets__users a.name-tag,
-.dashboard__widgets__features a {
+.dashboard__widgets__users a.name-tag {
   color: var(--text);
+}
+.dashboard__widgets a:not(.name-tag) {
+  color: var(--text) !important;
 }
