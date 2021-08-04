@@ -298,3 +298,9 @@ a.table-action-link,
 .notification {
   background: var(--bgPage);
 }
+
+/*settings page administration section text color*/
+.dashboard__widgets__users a.name-tag,
+.dashboard__widgets__features a {
+  color: var(--text);
+}
