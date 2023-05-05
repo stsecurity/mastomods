@@ -42,6 +42,7 @@ headers and warnings
         .admin-wrapper .sidebar ul ul a.selected,
     .flash-message,
         .flash-message.notice,
+        .flash-message.translation-prompt,
     .column-inline-form,
         .column-inline-form .icon-button,
         .simple_form .warning,
@@ -58,7 +59,7 @@ accented buttons
 --------------*/
 
 /* primary buttons */
-.directory__tag > a:hover, .directory__tag > a:active, .directory__tag > a:focus,
+.directory__tag:hover, .directory__tag:active, .directory__tag:focus,
     .button,
         .button:active,
         .button:focus,

@@ -8,6 +8,7 @@ base background and text
 
 /* background and drawer */
 body.app-body,
+.announcements,
 /*.ui,*/
 .drawer__tab,
 .drawer__inner,
@@ -60,10 +61,12 @@ body.app-body,
 .admin-wrapper .sidebar-wrapper,
     .admin-wrapper .sidebar-wrapper__inner,
     .admin-wrapper .sidebar ul a,
+    .admin-wrapper .content .directory__tag h4,
 /*    .admin-wrapper .sidebar ul a.selected,*/
     .admin-wrapper .sidebar ul ul a,
     .admin-wrapper .content h2,
     .admin-wrapper .content h6,
+    .admin-wrapper .content h3,
 /* modals */
 .boost-modal__action-bar,
     .confirmation-modal__action-bar,
@@ -93,7 +96,7 @@ body.theme-default,
 .public-layout .header .nav-link,
 .public-layout .header .nav-button,
 .nothing-here,
-.brand__tagline,
+/*.brand__tagline,*/
 .table-of-contents {
   background: var(--bgPage);
   color: var(--textPage);
@@ -185,6 +188,11 @@ body .neutral-hint, .admin-wrapper .content .neutral-hint,
   border-color: var(--textPageMuted);
 }
 
+/*table of contents color*/
+.table-of-contents li a {
+  color: var(--textPage) !important;
+}
+
 /*nav bar background*/
 .navigation-bar {
   background: var(--bgPage);
@@ -213,4 +221,12 @@ label.required,
 .optional ul li label,
 .user_setting_display_media ul label {
   color: var(--textPage) !important;
+}
+
+.table-wrapper .table {
+  border-radius: 4px;
+}
+
+.activity-stream {
+  background: var(--bg);
 }

@@ -9,7 +9,6 @@ base background and text
 /* status columns */
 .column>.scrollable,
 .status,
-    .status__content,
 .detailed-status,
     .detailed-status__action-bar,
     .focusable:focus .detailed-status,
@@ -31,7 +30,6 @@ base background and text
 .trends__header,
 /* new conversations */
 .conversation--unread,
-.conversation__content__names,
 /* search */
 .search__input,
     .search__input:focus,
@@ -126,7 +124,6 @@ base background and text
     .landing-page .features-list .features-list__row .visual .fa,
     .landing-page__short-description h1,
     .landing-page .separator-or span,
-.box-widget,
     .contact-widget,
     .landing-page__information.contact-widget,
 .rich-formatting li,
@@ -141,7 +138,10 @@ base background and text
 .hero-widget__text,
 .load-more,
 .button.button-secondary,
-.simple_form__overlay-area__overlay {
+.simple_form__overlay-area__overlay,
+.box-widget,
+.rules-list,
+.rules-list__text {
   background: var(--bg);
   color: var(--text);
 }
@@ -149,7 +149,8 @@ base background and text
 /* border radius for some elements*/
 .search__input,
 .navigation-bar,
-.column-header__wrapper {
+.column-header__wrapper,
+.contact-widget {
   border-radius: 4px 4px 4px 4px;
 }
 
@@ -187,6 +188,8 @@ override for bold text
     .directory__tag h4,
 .rich-formatting h3,
     .rich-formatting h4,
+    .rich-formatting h2,
+    .rich-formatting,
 .public-layout .public-account-header__tabs__tabs .counter .counter-number,
 .account__header__fields dt {
   color: var(--textBold);
@@ -305,4 +308,14 @@ a.table-action-link,
 }
 .dashboard__widgets a:not(.name-tag) {
   color: var(--text) !important;
+}
+
+.account-card .account-card__bio {
+  color: var(--textHead) !important;
+}
+
+/*fixing direct messages*/
+.status__content,
+.conversation__content__names {
+    color: var(--text);
 }
